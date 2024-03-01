@@ -24,7 +24,7 @@ Execute Django admin and create details for 10 books
 
 ## PROGRAM
 
-'''
+```
 admin.py
 
 from django.contrib import admin
@@ -44,7 +44,7 @@ class book(models.Model):
      
 class bookAdmin(admin.ModelAdmin):
     list_display=('book_no','book_name','author_name','book_page','book_price')
-'''
+```
 
 ## OUTPUT
 ![output](/Screenshot%202024-03-01%20092209.png)
