@@ -9,4 +9,3 @@ class book(models.Model):
      
 class bookAdmin(admin.ModelAdmin):
     list_display=('book_no','book_name','author_name','book_page','book_price')
-
